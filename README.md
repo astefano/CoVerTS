@@ -14,13 +14,13 @@ How to test the existing apps:
 
 from the cmd line:
 
-x$ java <app-name>.jar <args>
+x$ java \<app-name\>.jar \<args\>
 
-where <app-name> \in {tgc, fischer, tc} and <args> is the list of arguments:
+where \<app-name\> in {tgc, fischer, tc} and \<args\> is the list of arguments:
 
-1. for TGC: <n>, with <n> being the number of trains 
-2. for Fischer: <n>, with <n> being the number of processes ...
-3. for TC: <n> <isLinInv> <beta>, with <n> being the number of rodes, <isLinInv> is either 0 or 1 (1 is for using linear interaction invariants), <beta> is the constant in the rode component (this param is optional, by default it is n*900)
+1. for TGC: \<n\>, with \<n\> being the number of trains 
+2. for Fischer: \<n\>, with \<n\> being the number of processes ...
+3. for TC: \<n\> \<isLinInv\> \<beta\>, with \<n\> being the number of rodes, \<isLinInv\> is either 0 or 1 (1 is for using linear interaction invariants), \<beta\> is the constant in the rode component (this param is optional, by default it is n*900)
 
 ========================
 How to impl new apps:  
