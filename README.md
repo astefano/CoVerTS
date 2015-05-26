@@ -26,10 +26,10 @@ How to impl new apps:
 ========================
 
 1. Implementation:
-- look at the files tgc.scala, tempcontrol.scala; your new app. should look similar:
-   * implement your TAs (see makeTrain, you need to be familiar with PPL) or input it from an Uppaal file (see, for example src/Robots.scala)
-   * define your IM (see genIM)
-   * define your safety property to pass as the 3rd param to genTCZ3. Obs. that, by default, the 3rd param of genTCZ3 is implicitly DIS, automatically computed with genDIS.
+ - look at the files tgc.scala, tempcontrol.scala; your new app. should look similar:
+  * implement your TAs (see makeTrain, you need to be familiar with PPL) or input it from an Uppaal file (see, for example src/Robots.scala)
+  * define your IM (see genIM)
+  * define your safety property to pass as the 3rd param to genTCZ3. Obs. that, by default, the 3rd param of genTCZ3 is implicitly DIS, automatically computed with genDIS.
 - your main method should be identical to the main methods in the existing apps, with the only 2 exceptions of the def of the system and the call to genTCZ3 where you can ignore the last param.
 
 (Obs.: the file graphZone.scala is generic, this shouldn't be modified.)
@@ -37,11 +37,10 @@ How to impl new apps:
 2. Compile & make a jar:
 - make sure you're in the dir genGlobalInv
 - make a jar with the main app, from the cmd line:
-    .../genGlobalInv$ sbt one-jar
-
-    you'll be prompted to give the nb of the main class. Choose the one corresponding to yours. The generated jar file has a default name genglobalinv-0.1-one-jar.jar and is to be found in the folder "target". 
+  .../genGlobalInv$ sbt one-jar
+  you'll be prompted to give the nb of the main class. Choose the one corresponding to yours. The generated jar file has a default name genglobalinv-0.1-one-jar.jar and is to be found in the folder "target". 
 
 3. Run: 
 - from the cmd line:
-    .../genGlobalInv$ java target/genglobalinv-0.1-one-jar.jar <args>
+  .../genGlobalInv$ java target/genglobalinv-0.1-one-jar.jar <args>
 where <args> are the arguments of your main method, if any.
