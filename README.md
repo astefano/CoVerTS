@@ -9,7 +9,7 @@ Requirements:
 
 
 =================================
-How to test the existing apps:  |
+How to test the existing apps:  
 =================================
 
 from the cmd line:
@@ -22,7 +22,7 @@ where <app-name> \in {tgc, fischer, tc} and <args> is the list of arguments:
 3. for TC: <n> <isLinInv> <beta>, with <n> being the number of rodes, <isLinInv> is either 0 or 1 (1 is for using linear interaction invariants), <beta> is the constant in the rode component (this param is optional, by default it is n*900)
 
 ========================
-How to impl new apps:  |
+How to impl new apps:  
 ========================
 
 1. Implementation:
