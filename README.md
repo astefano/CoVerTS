@@ -31,7 +31,7 @@ How to impl new apps:
   * define your safety property to pass as the 3rd param to genTCZ3. Obs. that, by default, the 3rd param of genTCZ3 is implicitly DIS, automatically computed with genDIS.
  - your main method should be identical to the main methods in the existing apps, with the only 2 exceptions of the def of the system and the call to genTCZ3 where you can ignore the last param.
 
-  (Obs.: the file graphZone.scala is generic, this shouldn't be modified.)
+  (Obs.: the file graphZone.scala is generic, this doesn't need to be modified, unless you want to extend it, fix bugs...)
  
 2. Compile & make a jar:
  - make sure you're in the dir genGlobalInv
