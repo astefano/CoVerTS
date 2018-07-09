@@ -1,5 +1,5 @@
 # CoVerTS
-a prototype for the verification of state properties for timed systems
+a prototype for the verification of state properties for timed systems; it served as a proof of concept for 
 
 Requirements:
 - Z3 (z3.codeplex.com) 
