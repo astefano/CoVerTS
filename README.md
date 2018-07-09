@@ -1,5 +1,5 @@
 # CoVerTS
-a prototype for the verification of state properties for timed systems; it served as a proof of concept for 
+a prototype for the verification of state properties for timed systems; it served as a proof of concept for "Compositional Invariant Generation for Timed Systems", see tacas2014.pdf.
 
 Requirements:
 - Z3 (z3.codeplex.com) 
